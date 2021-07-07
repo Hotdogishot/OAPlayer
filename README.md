@@ -14,14 +14,14 @@ Next, initialize manually using the `new OAPlayer({})` function:
 var player = new OAPlayer({
                 el: "#video_player_container", // (required) Main container
                 url: "", // (required) Video url
-                type: "video/mp4", // Video type
+                type: "video/mp4", // (Optional) Video type
                 title: null, //  (Optional) Video title
                 poster: null, // (Optional) Video poster
                 logo: null, // (Optional) Add logo to right bottom of player
                 autoplay: false,
                 muted: false,
                 volume: 50,
-                autosave: false, (Optional & recommended) Save all user states (volume, where he stopped...).
+                autosave: false, // (Optional & recommended) Save all user states (volume, where he stopped...).
                 forward: false, // (Optional) add a (5sec) forward button
                 backward: false, // (Optional) add a (5sec) backward button
                 pip: true,

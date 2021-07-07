@@ -21,7 +21,7 @@ var player = new OAPlayer({
                 autoplay: false,
                 muted: false,
                 volume: 50,
-                autosave: false, 
+                autosave: false, (Optional & recommended) Save all user states (volume, where he stopped...).
                 forward: false, // (Optional) add a (5sec) forward button
                 backward: false, // (Optional) add a (5sec) backward button
                 pip: true,
